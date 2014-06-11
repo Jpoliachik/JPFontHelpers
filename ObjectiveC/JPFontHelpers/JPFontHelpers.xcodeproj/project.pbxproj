@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0357CBA19480A8100B58786 /* UIFont+JPFontHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D0357CB919480A8100B58786 /* UIFont+JPFontHelpers.m */; };
 		D04718A71948088A005E4E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04718A61948088A005E4E8B /* Foundation.framework */; };
 		D04718A91948088A005E4E8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04718A81948088A005E4E8B /* CoreGraphics.framework */; };
 		D04718AB1948088A005E4E8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04718AA1948088A005E4E8B /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0357CB819480A8100B58786 /* UIFont+JPFontHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+JPFontHelpers.h"; path = "Classes/UIFont+JPFontHelpers.h"; sourceTree = "<group>"; };
+		D0357CB919480A8100B58786 /* UIFont+JPFontHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+JPFontHelpers.m"; path = "Classes/UIFont+JPFontHelpers.m"; sourceTree = "<group>"; };
 		D04718A31948088A005E4E8B /* JPFontHelpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPFontHelpers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04718A61948088A005E4E8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D04718A81948088A005E4E8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0357CB719480A6C00B58786 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0357CB819480A8100B58786 /* UIFont+JPFontHelpers.h */,
+				D0357CB919480A8100B58786 /* UIFont+JPFontHelpers.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		D047189A1948088A005E4E8B = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +124,7 @@
 		D04718AC1948088A005E4E8B /* JPFontHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				D0357CB719480A6C00B58786 /* Classes */,
 				D04718B51948088A005E4E8B /* AppDelegate.h */,
 				D04718B61948088A005E4E8B /* AppDelegate.m */,
 				D04718B81948088A005E4E8B /* Main.storyboard */,
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04718BD1948088A005E4E8B /* ViewController.m in Sources */,
+				D0357CBA19480A8100B58786 /* UIFont+JPFontHelpers.m in Sources */,
 				D04718B71948088A005E4E8B /* AppDelegate.m in Sources */,
 				D04718B31948088A005E4E8B /* main.m in Sources */,
 			);
@@ -456,6 +470,7 @@
 				D04718D71948088A005E4E8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D04718D81948088A005E4E8B /* Build configuration list for PBXNativeTarget "JPFontHelpersTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +479,7 @@
 				D04718DA1948088A005E4E8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
